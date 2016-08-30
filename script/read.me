@@ -1,0 +1,27 @@
+config.properties - contains configuration properties (login, password, schema name, input dir etc)
+
+drop_and_create_schema.sh  drop schema and recreate the whole structure
+
+import_all_files.sh imports all files to MySQL 
+
+create_index.sh create indexes. Indeces are defined in ../sql/create_index.sql
+
+create_schema.sh  create schema. Schema is defined in ../sql/create_schema.sql
+
+enable_index.sh  enable all indeces
+
+disable_index.sh  disable all indeces
+
+drop_schema.sh  drop schema
+
+load_sp.sh load stored procedure
+
+show_tables.sh  show tables in the database
+
+test_performace.sh run the performance tests. Runs scripts line by line from ../sql/performance/performace*.sql files, shows execution time.
+
+run_sql_script.sh run sql script passed as param (file name)
+
+analysis/check_max_field_length.sh analize file and check field sizes
+
+
